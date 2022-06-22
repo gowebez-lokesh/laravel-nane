@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+@import './includes/EON.scss';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+body{
+    background: rgb(27, 26, 26);
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: white;
+    &:hover{
+        color: gray;
+    }
+}
